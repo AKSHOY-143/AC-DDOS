@@ -11,7 +11,6 @@ except ModuleNotFoundError:
 
 text_logo =  ("""
 
-
 \033[1;92m \x1b[38;5;46m       █████  ███████  ██████ ██ ██ 
 \033[1;92m \x1b[38;5;47m      ██   ██ ██      ██      ██ ██ 
 \033[1;92m \x1b[38;5;48m      ███████ ███████ ██      ██ ██ 
@@ -44,7 +43,7 @@ def admin():
 	print('      \033[1;32m┣━━━\033[97;1m[\033[92;1m3\033[97;1m]\033[1;32m JOIN MY CHANNEL ')
 	print('      \033[1;32m┗━━━\033[97;1m[\033[92;1m0\033[97;1m]\033[38;5;196m BACK TO MAIN MENU')
 	print('   \033[33;1m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-	shoha = input('  \033[97;1m[\033[34;1m+\033[97;1m]\033[1;32mCHOOSE OPTION>>> ')
+	shoha = input('     \033[97;1m[\033[34;1m+\033[97;1m]\033[1;32mCHOOSE OPTION>>> ')
 	if shoha =='1':
 		os.system('xdg-open https://github.com/U7P4L-IN');time.sleep(1)
 		admin()
