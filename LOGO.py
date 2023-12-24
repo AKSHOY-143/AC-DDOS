@@ -39,7 +39,6 @@ def admin():
 	loadinglisen()
 	os.system('clear')
 	print(text_logo)
-	print(logo) 
 	print('      \033[1;32m┏━━━\033[97;1m[\033[92;1m1\033[97;1m]\033[1;32m FOLLOW ME GITHUB')
 	print('      \033[1;32m┣━━━\033[97;1m[\033[92;1m2\033[97;1m]\033[1;32m JOIN MY FB GROUP ')
 	print('      \033[1;32m┣━━━\033[97;1m[\033[92;1m3\033[97;1m]\033[1;32m JOIN MY CHANNEL ')
